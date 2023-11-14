@@ -45,12 +45,12 @@ from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from sklearn.svm import SVR
 from sklearn.metrics import mean_squared_error
 
-# Assuming X contains your feature data and y contains the target variable (popularity)
+## Assuming X contains your feature data and y contains the target variable (popularity)
 
-# Step 2: Data Preprocessing
-# Assuming X_train, X_test, y_train, y_test are your training and testing sets
+## Step 2: Data Preprocessing
+## Assuming X_train, X_test, y_train, y_test are your training and testing sets
 
-# Step 3-5: Model Selection, Training, and Evaluation
+## Step 3-5: Model Selection, Training, and Evaluation
 models = {
     'Linear Regression': LinearRegression(),
     'Decision Tree': DecisionTreeRegressor(),
@@ -66,7 +66,7 @@ for name, model in models.items():
     print(f'{name} Mean Squared Error: {mse}')
 
 
-# Step 6-8: Prediction, Model Comparison, Deployment
+## Step 6-8: Prediction, Model Comparison, Deployment
 
 
 
